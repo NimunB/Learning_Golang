@@ -14,6 +14,7 @@ func Hello(name string) (string, error) { // Change the function so that it retu
 		}
     // Return a greeting that embeds the name in a message.
     message := fmt.Sprintf(randomFormat(), name) // shortcut for declaring and initializing a variable in one line
+		//message := fmt.Sprint(randomFormat()) // failure test
     return message, nil // Add nil (meaning no error) as a second value in the successful return. That way, the caller can see that the function succeeded.
 }
 
