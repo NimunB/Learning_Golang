@@ -16,7 +16,7 @@ func main() { // Declare a main package. In Go, code executed as an application 
     // ----Request greeting message------
 
 		// Check for error
-		message, err := greetings.Hello("") // Assign both of the Hello return values, including the error, to variables.
+		message, err := greetings.Hello("Nimmy") // Assign both of the Hello return values, including the error, to variables.
 
     // If an error was returned, print it to the console and
     // exit the program.
