@@ -1,0 +1,3 @@
+[submodule "Tutorials/3_multiModuleWorkspaces/workspace/Tutorials/3_multiModuleWorkspaces/workspace/example"]
+	path = Tutorials/3_multiModuleWorkspaces/workspace/Tutorials/3_multiModuleWorkspaces/workspace/example
+	url = https://go.googlesource.com/example
